@@ -1,0 +1,176 @@
+/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main_semantic.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.imageWrapper {
+  max-width: max-content;
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.imageWrapper .imageDescription {
+  display: block;
+}
+
+.logoImg {
+  width: 100px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbarItem {
+  font-size: 14px;
+  line-height: 5rem;
+  padding: 0 1.5rem;
+}
+
+.content .siteHeading {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.paragraphHeading {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.sideNote {
+  display: block;
+  width: 30%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  color: #29627e;
+}
+
+.sideNoteHeading {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.sideNoteParagraph{
+  padding: .5rem 0;
+}
+
+.sideNoteParagraph .italic {
+  font-style: italic;
+}
+
+.sideNoteParagraph .bold {
+  font-weight: bold;
+}
+
+.sideNoteParagraph, .siteStoryParagraph {
+  display: block;
+}
+
+.footer {
+  display: block;
+  margin-top: 1rem;
+  border: #29627e dashed 0.1rem;
+}
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
